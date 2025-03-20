@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.or-divider {
+    margin: 15px 0;
+    color: #ccc;
+}
+
+.fb-login {
+    background-color: transparent;
+    border: none;
+    color: #1877f2;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.signup-container {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-container a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.app-links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.buttons img {
+    width: 130px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+}

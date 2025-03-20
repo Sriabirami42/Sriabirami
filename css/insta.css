@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Left Side - Image Section 
+.image-section img {
+    width: 350px;
+    height: auto;
+}*/
+
+/* Right Side - Login Section */
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Login Box */
+.login-box {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 300px;
+}
+
+.login-box h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+    color: #262626;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.or-section {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.or-section span {
+    flex: 1;
+    height: 1px;
+    background: #ddd;
+    margin: 0 10px;
+}
+
+.fb-login {
+    color: #385185;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+}
+
+.signup-box {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 300px;
+}
+
+.signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+}
